@@ -1,2 +1,4 @@
 # ignore all.txt files
 *.txt
+Intermediate/
+Saved/

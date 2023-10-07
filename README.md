@@ -14,7 +14,7 @@ We'll see how this goes. One of my favorite games is Hollow Knight, so I want to
 
 ## To-do List 10/7/2023
 
-~ Add hitbox for attack animation <br>
+- [ ] Add hitbox for attack animation <br>
 ~ Make only the above half sprite perform the animation attack override <br>
 ~ Make the map more expansive <br>
 ~ Maybe make the camera movement better!

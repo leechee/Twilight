@@ -17,4 +17,4 @@ We'll see how this goes. One of my favorite games is Hollow Knight, so I want to
 ~ Add hitbox for attack animation <br>
 ~ Make only the above half sprite perform the animation attack override <br>
 ~ Make the map more expansive <br>
-~ Maybe make the camera movement better
+~ Maybe make the camera movement better!

@@ -16,6 +16,9 @@ We'll see how this goes. One of my favorite games is Hollow Knight, so I want to
 
 - [ ] Add hitbox for attack animation <br>
 - [ ] Blend animations so only the above half sprite perform the animation attack override <br>
-- [ ] Make the map more expansive <br>
+- [X] Make the map more expansive <br>
 - [ ] Maybe make the camera movement better! <br>
-- [X] Added attack animation delay
+- [X] Added attack animation delay <br>
+- [X] Added SFX to attack and jump animations <br>
+- [ ] Add jump delay
+- [ ] Add simple AI enemy

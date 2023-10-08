@@ -12,7 +12,7 @@ We'll see how this goes. One of my favorite games is Hollow Knight, so I want to
 - [ ] Make a basic enemy programmed by simple AI <br>
 - [X] Learn how to use git better... <br>
 
-## To-do List
+## To-do List / DevLog
 
 - [ ] Add hitbox for attack animation <br>
 - [ ] Blend animations so only the above half sprite perform the animation attack override <br>
@@ -22,3 +22,5 @@ We'll see how this goes. One of my favorite games is Hollow Knight, so I want to
 - [X] Added SFX to attack and jump animations <br>
 - [ ] Add jump delay
 - [ ] Add simple AI enemy
+- [X] Fixed collision box for platforms
+- [ ] Able to fall through platforms after pressing down

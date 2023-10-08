@@ -5,16 +5,17 @@ We'll see how this goes. One of my favorite games is Hollow Knight, so I want to
 
 ## Goals 10/2/2023
 
-~ Create character animations using sprites from Itch.io. <br>
-~ Be able to move the character, including dashing <br>
-~ Have camera movement similar to Hollow Knight <br>
-~ Make a basic map <br>
-~ Make a basic enemy programmed by simple AI <br>
-~ Learn how to use git better... <br>
+- [ ] Create character animations using sprites from Itch.io. <br>
+- [ ] Be able to move the character, including dashing <br>
+- [ ] Have camera movement similar to Hollow Knight <br>
+- [ ] Make a basic map <br>
+- [ ] Make a basic enemy programmed by simple AI <br>
+- [X] Learn how to use git better... <br>
 
-## To-do List 10/7/2023
+## To-do List
 
-~ Add hitbox for attack animation <br>
-~ Make only the above half sprite perform the animation attack override <br>
-~ Make the map more expansive <br>
-~ Maybe make the camera movement better!
+- [ ] Add hitbox for attack animation <br>
+- [ ] Blend animations so only the above half sprite perform the animation attack override <br>
+- [ ] Make the map more expansive <br>
+- [ ] Maybe make the camera movement better! <br>
+- [X] Added attack animation delay

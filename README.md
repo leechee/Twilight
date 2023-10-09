@@ -45,3 +45,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [X] Fixed collision box for platforms <br>
 - [X] Created idle animation for the first enemy, BallChain <br>
 - [X] Improved README to be more organized and include devlog <br>
+
+#### 10/9/2023
+
+-[X] Cloned repository to work remotely

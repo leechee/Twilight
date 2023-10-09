@@ -10,6 +10,8 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Add jump delay <br>
 - [ ] Make a basic enemy programmed by simple AI <br>
 - [ ] Able to fall through platforms after pressing down <br>
+- [ ] Add health system
+- [ ] Add Minecraft text in-game
 
 ## Devlog
 
@@ -48,4 +50,4 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 
 #### 10/9/2023
 
--[X] Cloned repository to work remotely
+- [X] Cloned repository to work remotely

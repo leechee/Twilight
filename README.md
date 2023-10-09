@@ -36,9 +36,12 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 
 #### 10/7/2023
 - [X] Added attack animation delay <br>
-- [X] Add hitbox for attack animation<br>
+- [X] Added hitbox for attack animation<br>
 
 #### 10/8/2023
-- [X] Added hit registration for attack animation <br>
-- [X] Make the map more expansive (always improving)<br>
+- [X] Added hiting registration for attack animation <br>
+- [X] Added get hit registration for attack animation with a stunned state <br>
+- [X] Made the map more expansive (always improving)<br>
 - [X] Fixed collision box for platforms <br>
+- [X] Created idle animation for the first enemy, BallChain <br>
+- [X] Improved README to be more organized and include devlog <br>

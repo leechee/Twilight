@@ -51,3 +51,10 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 #### 10/9/2023
 
 - [X] Cloned repository to work remotely
+
+#### 10/10/2023
+
+- [X] Added stun animation for the ball chain mob
+- [X] Added SFX for the BC_stun
+- [X] Added sequence to warrior blueprint to enable multiple hit regis
+- [X] Cleaned up some lighting for BC

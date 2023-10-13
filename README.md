@@ -60,3 +60,10 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [X] Added SFX for the BC_stun
 - [X] Added sequence to warrior blueprint to enable multiple hit regis
 - [X] Cleaned up some lighting for BC
+
+#### 10/13/2023
+
+- [X] Added death animation for the warrior
+- [X] Set health and damage system to the warrior
+- [X] Removed collision when dead animation finishes
+- [X] Fixed bug where hits would be detected if warrior turned around mid-sequence

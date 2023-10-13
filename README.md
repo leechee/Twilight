@@ -12,6 +12,8 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Able to fall through platforms after pressing down <br>
 - [ ] Add health system
 - [ ] Add Minecraft text in-game
+- [ ] Interactions with NPCs and a shop system
+- [ ] Inventory system
 
 ## Devlog
 

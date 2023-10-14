@@ -67,3 +67,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [X] Set health and damage system to the warrior
 - [X] Removed collision when dead animation finishes
 - [X] Fixed bug where hits would be detected if warrior turned around mid-sequence
+
+#### 10/13/2023
+
+- [X] Added more death charge attack run and charge transition custom animations for ball-chain sprite

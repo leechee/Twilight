@@ -10,6 +10,10 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Add jump delay <br>
 - [ ] Make a basic enemy programmed by simple AI <br>
 - [ ] Able to fall through platforms after pressing down <br>
+- [ ] Add health system
+- [ ] Add Minecraft text in-game
+- [ ] Interactions with NPCs and a shop system
+- [ ] Inventory system
 
 ## Devlog
 
@@ -45,3 +49,25 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [X] Fixed collision box for platforms <br>
 - [X] Created idle animation for the first enemy, BallChain <br>
 - [X] Improved README to be more organized and include devlog <br>
+
+#### 10/9/2023
+
+- [X] Cloned repository to work remotely
+
+#### 10/10/2023
+
+- [X] Added stun animation for the ball chain mob
+- [X] Added SFX for the BC_stun
+- [X] Added sequence to warrior blueprint to enable multiple hit regis
+- [X] Cleaned up some lighting for BC
+
+#### 10/13/2023
+
+- [X] Added death animation for the warrior
+- [X] Set health and damage system to the warrior
+- [X] Removed collision when dead animation finishes
+- [X] Fixed bug where hits would be detected if warrior turned around mid-sequence
+
+#### 10/13/2023
+
+- [X] Added more death charge attack run and charge transition custom animations for ball-chain sprite

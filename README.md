@@ -10,10 +10,11 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Add jump delay <br>
 - [ ] Make a basic enemy programmed by simple AI <br>
 - [ ] Able to fall through platforms after pressing down <br>
-- [ ] Add health system
+- [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
 - [ ] Inventory system
+- [ ] Apply knockback
 
 ## Devlog
 
@@ -76,3 +77,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [X] Fixed bug where enemy bodies would move parallax with the ground
 - [X] Programmed enemy AI to follow player at a set speed and acceptable radius
 - [X] New bug: navmesh won't work in a 2D space
+
+#### 10/18/2023 
+- [X] Fixed navmesh
+- [X] Fixed bug where navmesh would not register under tiles

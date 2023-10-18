@@ -71,3 +71,6 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 #### 10/13/2023
 
 - [X] Added more death charge attack run and charge transition custom animations for ball-chain sprite
+
+#### 10/17/2023
+- [X] Fixed bug where enemy bodies would move parallax with the ground

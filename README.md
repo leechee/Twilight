@@ -74,3 +74,5 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 
 #### 10/17/2023
 - [X] Fixed bug where enemy bodies would move parallax with the ground
+- [X] Programmed enemy AI to follow player at a set speed and acceptable radius
+- [X] New bug: navmesh won't work in a 2D space

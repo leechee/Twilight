@@ -81,3 +81,4 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 #### 10/18/2023 
 - [X] Fixed navmesh
 - [X] Fixed bug where navmesh would not register under tiles
+- [X] New bug: ball chain enemy walks through the ground

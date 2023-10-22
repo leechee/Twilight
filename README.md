@@ -15,6 +15,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Interactions with NPCs and a shop system
 - [ ] Inventory system
 - [ ] Apply knockback
+- [ ] Change warrior sprite to wispy in Aesprite
 
 ## Devlog
 
@@ -86,3 +87,6 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 #### 10/20/2023
 - [X] Broke navmesh again...
 - [X] Fixed bug where ball chain enemy would walk through the ground
+
+#### 10/21/2023
+- [X] Fixed navmesh by lowering agent height in RecastNavMesh-Default item

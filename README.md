@@ -16,6 +16,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Inventory system
 - [ ] Apply knockback
 - [ ] Change warrior sprite to wispy in Aesprite
+- [ ] brainstorm shop items and upgrades
 
 ## Devlog
 

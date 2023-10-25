@@ -91,3 +91,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 
 #### 10/21/2023
 - [X] Fixed navmesh by lowering agent height in RecastNavMesh-Default item
+
+#### 10/25/2023
+- [X] Implemented knockback
+- [X] New bug: knockback only works in one direction

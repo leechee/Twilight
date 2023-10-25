@@ -14,7 +14,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
 - [ ] Inventory system
-- [ ] Apply knockback
+- [ ] Apply knockback to small enemies
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
 

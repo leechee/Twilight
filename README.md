@@ -17,6 +17,7 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Apply knockback to small enemies
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
+- [ ] add knockback
 
 ## Devlog
 

@@ -1,7 +1,3 @@
-# Introduction
-
-After playing video games all my life and being inspired by devlogs on YouTube, I decided to seriously try out game dev for the first time. One of my favorite games is Hollow Knight, so for my first project, my goal is to make a basic 2D action adventure utilizing PaperZD in Unreal Engine 5.
-
 ## Overall To-do List
 
 - [ ] Learn Aesprite so I can blend animations so only the above half sprite performs the animation attack override <br>

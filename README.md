@@ -96,3 +96,6 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 #### 10/25/2023
 - [X] Implemented knockback
 - [X] New bug: knockback only works in one direction
+
+#### 10/26/2023
+- [X] Knockback works appropriately for any direction using forward vectors

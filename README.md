@@ -10,10 +10,14 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Add jump delay <br>
 - [ ] Make a basic enemy programmed by simple AI <br>
 - [ ] Able to fall through platforms after pressing down <br>
-- [ ] Add health system
+- [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
 - [ ] Inventory system
+- [ ] Apply knockback to small enemies
+- [ ] Change warrior sprite to wispy in Aesprite
+- [ ] brainstorm shop items and upgrades
+- [ ] add knockback
 
 ## Devlog
 
@@ -71,3 +75,27 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 #### 10/13/2023
 
 - [X] Added more death charge attack run and charge transition custom animations for ball-chain sprite
+
+#### 10/17/2023
+- [X] Fixed bug where enemy bodies would move parallax with the ground
+- [X] Programmed enemy AI to follow player at a set speed and acceptable radius
+- [X] New bug: navmesh won't work in a 2D space
+
+#### 10/18/2023 
+- [X] Fixed navmesh
+- [X] Fixed bug where navmesh would not register under tiles
+- [X] New bug: ball chain enemy walks through the ground
+
+#### 10/20/2023
+- [X] Broke navmesh again...
+- [X] Fixed bug where ball chain enemy would walk through the ground
+
+#### 10/21/2023
+- [X] Fixed navmesh by lowering agent height in RecastNavMesh-Default item
+
+#### 10/25/2023
+- [X] Implemented knockback
+- [X] New bug: knockback only works in one direction
+
+#### 10/26/2023
+- [X] Knockback works appropriately for any direction using forward vectors

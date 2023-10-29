@@ -14,6 +14,7 @@
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
 - [ ] add knockback
+- [ ] edit ball chain death sprite
 
 ## Devlog
 

@@ -10,11 +10,10 @@
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
 - [ ] Inventory system
-- [ ] Apply knockback to small enemies
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
-- [ ] add knockback
 - [ ] edit ball chain death sprite
+- [ ] destroy actor after delay
 
 ## Devlog
 
@@ -96,3 +95,8 @@
 
 #### 10/26/2023
 - [X] Knockback works appropriately for any direction using forward vectors
+
+#### 10/29/2023
+- [X] Fixed bug where ball chain enemy would still follow player direction when in dead state
+- [X] Improved AI targeting fluidity
+- [X] Constrained actors to y axis

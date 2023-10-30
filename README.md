@@ -1,7 +1,3 @@
-# Introduction
-
-After playing video games all my life and being inspired by devlogs on YouTube, I decided to seriously try out game dev for the first time. One of my favorite games is Hollow Knight, so for my first project, my goal is to make a basic 2D action adventure utilizing PaperZD in Unreal Engine 5.
-
 ## Overall To-do List
 
 - [ ] Learn Aesprite so I can blend animations so only the above half sprite performs the animation attack override <br>
@@ -14,10 +10,10 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
 - [ ] Inventory system
-- [ ] Apply knockback to small enemies
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
-- [ ] add knockback
+- [ ] edit ball chain death sprite
+- [ ] destroy actor after delay
 
 ## Devlog
 
@@ -99,3 +95,8 @@ After playing video games all my life and being inspired by devlogs on YouTube, 
 
 #### 10/26/2023
 - [X] Knockback works appropriately for any direction using forward vectors
+
+#### 10/29/2023
+- [X] Fixed bug where ball chain enemy would still follow player direction when in dead state
+- [X] Improved AI targeting fluidity
+- [X] Constrained actors to y axis

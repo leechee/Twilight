@@ -13,7 +13,7 @@
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
 - [ ] edit ball chain death sprite
-- [ ] destroy actor after delay
+- [ ] destroy actor after delay node
 
 ## Devlog
 

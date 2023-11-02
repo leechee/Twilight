@@ -104,3 +104,4 @@
 #### 11/1/2023
 - [X] Added attack to the AI
 - [X] Multiple bugs with attacking and stun states
+- [X] Attempted to implement charge state

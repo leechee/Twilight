@@ -100,3 +100,8 @@
 - [X] Fixed bug where ball chain enemy would still follow player direction when in dead state
 - [X] Improved AI targeting fluidity
 - [X] Constrained actors to y axis
+
+#### 11/1/2023
+- [X] Added attack to the AI
+- [X] Multiple bugs with attacking and stun states
+- [X] Attempted to implement charge state

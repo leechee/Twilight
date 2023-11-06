@@ -12,7 +12,7 @@
 - [ ] Inventory system
 - [ ] Change warrior sprite to wispy in Aesprite
 - [ ] brainstorm shop items and upgrades
-- [ ] edit ball chain death sprite
+- [ ] edit ball chain death sprite to include no sparks
 - [ ] destroy actor after delay node
 
 ## Devlog

@@ -1,11 +1,10 @@
 ## Overall To-do List
 
-- [ ] Learn Aesprite so I can blend animations so only the above half sprite performs the animation attack override <br>
-- [ ] Have camera movement similar to Hollow Knight <br>
-- [ ] Make movement mechanics more similar to the Hollow Knight (e.g. dashes) <br>
-- [ ] Add jump delay <br>
-- [ ] Make a basic enemy programmed by simple AI <br>
-- [ ] Able to fall through platforms after pressing down <br>
+- [ ] Learn Aesprite so I can blend animations so only the above half sprite performs the animation attack override 
+- [ ] Have camera movement similar to Hollow Knight
+- [ ] Make movement mechanics more similar to the Hollow Knight (e.g. dashes)
+- [ ] Add jump delay 
+- [ ] Able to fall through platforms after pressing down 
 - [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
@@ -19,36 +18,36 @@
 
 #### 10/4/2023
 
-- [X] Learned how to create character animations using sprites from Itch.io.<br>
-- [X] Used Blueprint to code basic movement controls for the warrior<br>
-- [X] Added a jump, forward, and backward<br>
-- [X] Added a dash that increases runPlayRate and movement speed<br>
-- [X] Inputted default control settings and Pawn Control<br>
+- [X] Learned how to create character animations using sprites from Itch.io
+- [X] Used Blueprint to code basic movement controls for the warrior
+- [X] Added a jump, forward, and backward<
+- [X] Added a dash that increases runPlayRate and movement spee<
+- [X] Inputted default control settings and Pawn Control
 
 #### 10/5/2023
-- [X] Added a custom created basic map using imported sprites and tilesets<br>
-- [X] Utilized 3D functions to create a parallax effect in the background of the game<br>
-- [X] Added an attack animation override so the warrior has an attack animation<br>
-- [X] Researched camera movement from Hollow Knight and reset default inputs to match Hollow Knight<br>
+- [X] Added a custom created basic map using imported sprites and tilesets
+- [X] Utilized 3D functions to create a parallax effect in the background of the game
+- [X] Added an attack animation override so the warrior has an attack animation
+- [X] Researched camera movement from Hollow Knight and reset default inputs to match Hollow Knight
 
 #### 10/6/2023
-- [X] Added SFX to attack and jump animations<br>
-- [X] Set all sprite masking to DefaultUnlit to create lighting<br>
-- [X] Added lighting throughout the map using point and directional lighting<br>
-- [X] Learned git and github basics and pushed this project into the cloud <br>
-- [X] So far, the game has a twilight feel, so I named the game Twilight (tentative) <br>
+- [X] Added SFX to attack and jump animations
+- [X] Set all sprite masking to DefaultUnlit to create lighting
+- [X] Added lighting throughout the map using point and directional lighting
+- [X] Learned git and github basics and pushed this project into the cloud
+- [X] So far, the game has a twilight feel, so I named the game Twilight (tentative) 
 
 #### 10/7/2023
-- [X] Added attack animation delay <br>
-- [X] Added hitbox for attack animation<br>
+- [X] Added attack animation delay
+- [X] Added hitbox for attack animation
 
 #### 10/8/2023
-- [X] Added hiting registration for attack animation <br>
-- [X] Added get hit registration for attack animation with a stunned state <br>
-- [X] Made the map more expansive (always improving)<br>
-- [X] Fixed collision box for platforms <br>
-- [X] Created idle animation for the first enemy, BallChain <br>
-- [X] Improved README to be more organized and include devlog <br>
+- [X] Added hiting registration for attack animation
+- [X] Added get hit registration for attack animation with a stunned state
+- [X] Made the map more expansive (always improving)
+- [X] Fixed collision box for platforms 
+- [X] Created idle animation for the first enemy, BallChain
+- [X] Improved README to be more organized and include devlog
 
 #### 10/9/2023
 

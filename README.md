@@ -4,7 +4,6 @@
 - [ ] Have camera movement similar to Hollow Knight
 - [ ] Make movement mechanics more similar to the Hollow Knight (e.g. dashes)
 - [ ] Add jump delay 
-- [ ] Able to fall through platforms after pressing down 
 - [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system

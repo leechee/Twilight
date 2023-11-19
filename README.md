@@ -102,3 +102,6 @@
 - [X] Added attack to the AI
 - [X] Multiple bugs with attacking and stun states
 - [X] Attempted to implement charge state
+
+#### 11/18/2023
+- [X] No changes yet... need to focus on studying for finals

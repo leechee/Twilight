@@ -1,13 +1,12 @@
 ## Overall To-do List
 
-- [ ] Learn Aesprite so I can blend animations so only the above half sprite performs the animation attack override 
+- [ ] Learn Aesprite to blend animations; only the top half of the sprite performs the animation attack override 
 - [ ] Have camera movement similar to Hollow Knight
 - [ ] Make movement mechanics more similar to the Hollow Knight (e.g. dashes)
 - [ ] Add jump delay 
 - [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
-- [ ] Inventory system
 - [ ] brainstorm shop items and upgrades
 - [ ] edit ball chain death sprite to include no sparks
 - [ ] destroy actor after delay node
@@ -18,8 +17,8 @@
 
 - [X] Learned how to create character animations using sprites from Itch.io
 - [X] Used Blueprint to code basic movement controls for the warrior
-- [X] Added a jump, forward, and backward<
-- [X] Added a dash that increases runPlayRate and movement spee<
+- [X] Added a jump, forward, and backward
+- [X] Added a dash that increases runPlayRate and movement speed
 - [X] Inputted default control settings and Pawn Control
 
 #### 10/5/2023

@@ -9,7 +9,7 @@
 - [ ] Interactions with NPCs and a shop system
 - [ ] brainstorm shop items and upgrades
 - [ ] edit ball chain death sprite to include no sparks
-- [ ] destroy actor after delay node
+- [ ] destroy actor after the delay node
 
 ## Devlog
 

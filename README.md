@@ -103,4 +103,8 @@
 - [X] Attempted to implement charge state
 
 #### 11/18/2023
-- [X] No changes yet... need to focus on studying for finals
+- [X] Holding off project for now, need to focus on studying for finals
+
+#### 12/16/2023
+- [X] AI for enemies is very buggy - attempting to fix it
+- [X] Will work on dash function soon

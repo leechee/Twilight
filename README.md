@@ -112,3 +112,7 @@
 #### 12/16/2023
 - [ ] Fixed some lighting issues
 - [ ] Failed to implement working dash
+
+#### 12/17/2023
+- [X] Implemented dash and added lateral friction
+- [X] Dash goes through other entities

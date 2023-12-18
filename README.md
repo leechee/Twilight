@@ -116,3 +116,7 @@
 #### 12/17/2023
 - [X] Implemented dash and added lateral friction
 - [X] Dash goes through other entities
+
+#### 12/18/2023
+- [X] Fixed issue where maps would go missing upon UE5 launch; just had to update plugins
+

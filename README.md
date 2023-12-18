@@ -106,5 +106,9 @@
 - [X] Holding off project for now, need to focus on studying for finals
 
 #### 12/16/2023
-- [X] AI for enemies is very buggy - attempting to fix it
-- [X] Will work on dash function soon
+- [ ] AI for enemies is very buggy - attempting to fix it
+- [ ] Will work on dash function soon
+
+#### 12/16/2023
+- [ ] Fixed some lighting issues
+- [ ] Failed to implement working dash

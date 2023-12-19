@@ -119,4 +119,7 @@
 
 #### 12/18/2023
 - [X] Fixed issue where maps would go missing upon UE5 launch; just had to update plugins
+- [X] Fixed bug where player could still attack, dash, and jump while defeated
+- [X] Fixed bug where player would fall off map if died mid-air
+- [X] Used event tick to make enemies despawn after being dead for five seconds
 

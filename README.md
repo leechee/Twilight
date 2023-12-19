@@ -122,4 +122,6 @@
 - [X] Fixed bug where player could still attack, dash, and jump while defeated
 - [X] Fixed bug where player would fall off map if died mid-air
 - [X] Used event tick to make enemies despawn after being dead for five seconds
+- [X] Added animation for dash
+- [X] Attempted charge animation for ballchain enemy
 

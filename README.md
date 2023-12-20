@@ -1,16 +1,15 @@
 ## Overall To-do List
 
-- [ ] Learn Aesprite so I can blend animations so only the above half sprite performs the animation attack override 
+- [ ] Learn Aesprite to blend animations; only the top half of the sprite performs the animation attack override 
 - [ ] Have camera movement similar to Hollow Knight
 - [ ] Make movement mechanics more similar to the Hollow Knight (e.g. dashes)
 - [ ] Add jump delay 
 - [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
-- [ ] Inventory system
 - [ ] brainstorm shop items and upgrades
 - [ ] edit ball chain death sprite to include no sparks
-- [ ] destroy actor after delay node
+- [ ] destroy actor after the delay node
 
 ## Devlog
 
@@ -18,8 +17,8 @@
 
 - [X] Learned how to create character animations using sprites from Itch.io
 - [X] Used Blueprint to code basic movement controls for the warrior
-- [X] Added a jump, forward, and backward<
-- [X] Added a dash that increases runPlayRate and movement spee<
+- [X] Added a jump, forward, and backward
+- [X] Added a dash that increases runPlayRate and movement speed
 - [X] Inputted default control settings and Pawn Control
 
 #### 10/5/2023
@@ -102,3 +101,32 @@
 - [X] Added attack to the AI
 - [X] Multiple bugs with attacking and stun states
 - [X] Attempted to implement charge state
+
+#### 11/18/2023
+- [X] Holding off project for now, need to focus on studying for finals
+
+#### 12/16/2023
+- [ ] AI for enemies is very buggy - attempting to fix it
+- [ ] Will work on dash function soon
+
+#### 12/16/2023
+- [ ] Fixed some lighting issues
+- [ ] Failed to implement working dash
+
+#### 12/17/2023
+- [X] Implemented dash and added lateral friction
+- [X] Dash goes through other entities
+
+#### 12/18/2023
+- [X] Fixed issue where maps would go missing upon UE5 launch; just had to update plugins
+- [X] Fixed bug where player could still attack, dash, and jump while defeated
+- [X] Fixed bug where player would fall off map if died mid-air
+- [X] Used event tick to make enemies despawn after being dead for five seconds
+- [X] Added animation for dash
+- [X] Charge for ball chain enemy bugged
+
+#### 12/19/2023
+- [X] Added sound for dash
+- [X] Optimized dash; goes through pawns cleaner and works even when vector velocity is zero
+
+

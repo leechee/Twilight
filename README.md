@@ -130,3 +130,7 @@
 - [X] Optimized dash; goes through pawns cleaner and works even when vector velocity is zero
 - [X] Fixed bug where ball chain enemy would only hit whenever player went into hitbox; set active hitbox collision was not linked to branch
 - [X] Ball chain enemy now has a double hit attack pattern
+
+#### 12/20/2023
+- [X] Added snow particles
+

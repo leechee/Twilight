@@ -136,4 +136,9 @@
 - [X] Ball chain enemy transitions to charge if stunned while charging
 - [X] Fixed bug where dash would be short if player x-velocity was too low
 - [X] Fixed bug where attack would carry over if player turned directions quickly
+- [X] Adjusted hitboxes and capsule settings
+
+#### 12/20/2023
+- [X] Hitting ball chain enemy resets charge timer
+- [X] Hits register stuns even mid-way throughout enemy attack animation
 

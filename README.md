@@ -133,4 +133,7 @@
 
 #### 12/20/2023
 - [X] Added snow particles
+- [X] Ball chain enemy transitions to charge if stunned while charging
+- [X] Fixed bug where dash would be short if player x-velocity was too low
+- [X] Fixed bug where attack would carry over if player turned directions quickly
 

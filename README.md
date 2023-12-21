@@ -138,7 +138,12 @@
 - [X] Fixed bug where attack would carry over if player turned directions quickly
 - [X] Adjusted hitboxes and capsule settings
 
-#### 12/20/2023
+#### 12/21/2023
 - [X] Hitting ball chain enemy resets charge timer
-- [X] Hits register stuns even mid-way throughout enemy attack animation
+- [X] Hits register stuns even during enemy attack animation
+- [X] Death animation plays even during enemy attack animation
+- [X] Ball chain enemy can not longer turn directions while charging or attacking
+- [X] Player can only jump when on ground
+- [X] Fixed tile set artifact glitches
+- [X] Set aggro range for enemy
 

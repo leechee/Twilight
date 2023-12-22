@@ -128,5 +128,22 @@
 #### 12/19/2023
 - [X] Added sound for dash
 - [X] Optimized dash; goes through pawns cleaner and works even when vector velocity is zero
+- [X] Fixed bug where ball chain enemy would only hit whenever player went into hitbox; set active hitbox collision was not linked to branch
+- [X] Ball chain enemy now has a double hit attack pattern
 
+#### 12/20/2023
+- [X] Added snow particles
+- [X] Ball chain enemy transitions to charge if stunned while charging
+- [X] Fixed bug where dash would be short if player x-velocity was too low
+- [X] Fixed bug where attack would carry over if player turned directions quickly
+- [X] Adjusted hitboxes and capsule settings
+
+#### 12/21/2023
+- [X] Hitting ball chain enemy resets charge timer
+- [X] Hits register stuns even during enemy attack animation
+- [X] Death animation plays even during enemy attack animation
+- [X] Ball chain enemy can not longer turn directions while charging or attacking
+- [X] Player can only jump when on ground
+- [X] Fixed tile set artifact glitches
+- [X] Set aggro range for enemy
 

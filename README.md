@@ -146,4 +146,5 @@
 - [X] Player can only jump when on ground
 - [X] Fixed tile set artifact glitches
 - [X] Set aggro range for enemy
+- [X] Fixed navmesh needs to be rebuilt by setting navigation mesh setting runtime to dynamic
 

@@ -148,3 +148,6 @@
 - [X] Set aggro range for enemy
 - [X] Fixed navmesh needs to be rebuilt by setting navigation mesh setting runtime to dynamic
 
+#### 12/22/2023
+- [X] Worked on level design and tilesets
+

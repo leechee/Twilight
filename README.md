@@ -149,7 +149,7 @@
 #### 12/22/2023
 - [X] Worked on level design and tilesets
 
-#### 12/22/2023
+#### 12/24/2023
 - [X] Nerfed player walking speed
 - [X] Added non-collidable tiles
 

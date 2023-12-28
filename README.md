@@ -1,15 +1,13 @@
 ## Overall To-do List
 
-- [ ] Learn Aesprite to blend animations; only the top half of the sprite performs the animation attack override 
+- [ ] Learn Aesprite
 - [ ] Have camera movement similar to Hollow Knight
-- [ ] Make movement mechanics more similar to the Hollow Knight (e.g. dashes)
 - [ ] Add jump delay 
 - [ ] Add health bar (or hearts) system
 - [ ] Add Minecraft text in-game
 - [ ] Interactions with NPCs and a shop system
-- [ ] brainstorm shop items and upgrades
+- [ ] abilities include dash, sword throw, and double jump
 - [ ] edit ball chain death sprite to include no sparks
-- [ ] destroy actor after the delay node
 
 ## Devlog
 
@@ -146,4 +144,12 @@
 - [X] Player can only jump when on ground
 - [X] Fixed tile set artifact glitches
 - [X] Set aggro range for enemy
+- [X] Fixed navmesh needs to be rebuilt by setting navigation mesh setting runtime to dynamic
+
+#### 12/22/2023
+- [X] Worked on level design and tilesets
+
+#### 12/24/2023
+- [X] Nerfed player walking speed
+- [X] Added non-collidable tiles
 

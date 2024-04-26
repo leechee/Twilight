@@ -157,3 +157,6 @@
 - [X] Disabled lumen and changed shadow tiles to improve fps
 - [X] Adjusted unit capsule component height and translated player spawn point up the y axis so the lights would not interfere with the model
 
+#### 3/10/2024
+- [X] Paused log to work on another project
+

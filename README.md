@@ -160,3 +160,12 @@
 #### 3/10/2024
 - [X] Paused log to work on another project
 
+#### 5/18/2024
+- [X] Fixed issue where ground would shake when character moved (moved character y axis to 1.0)
+- [X] Moved sprite down so character wouldn't appear floating
+- [X] Changed camera from perspective to orthographic
+- [X] Fixed minor screen tears between tiles
+- [X] Fixed tiles glitching and changing while character moves
+- [ ] Fix light shining through sprite
+- [ ] Fix weird wave tile movement whenever character jumps (probably orthographic camera issue)
+

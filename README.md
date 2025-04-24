@@ -1,171 +1,192 @@
-## Overall To-do List
 
-- [ ] Learn Aesprite
-- [ ] Have camera movement similar to Hollow Knight
-- [ ] Add jump delay 
-- [ ] Add health bar (or hearts) system
-- [ ] Add Minecraft text in-game
-- [ ] Interactions with NPCs and a shop system
-- [ ] abilities include dash, sword throw, and double jump
-- [ ] edit ball chain death sprite to include no sparks
+# 🌒 Twilight - A 2D Platformer Inspired by Hollow Knight
 
-## Devlog
+Twilight is a handcrafted 2D platformer built using Unreal Engine 5. Taking visual and gameplay inspiration from titles like *Hollow Knight*, this project focuses on delivering satisfying movement, challenging enemies, fluid animation, and an immersive atmosphere. From knockback systems to parallax-scrolling tilesets, Twilight is built with meticulous attention to detail and driven by solo development.
 
-#### 10/4/2023
+---
 
-- [X] Learned how to create character animations using sprites from Itch.io
-- [X] Used Blueprint to code basic movement controls for the warrior
-- [X] Added a jump, forward, and backward
-- [X] Added a dash that increases runPlayRate and movement speed
-- [X] Inputted default control settings and Pawn Control
+## 🕹 Game Features (Planned & Implemented)
 
-#### 10/5/2023
-- [X] Added a custom created basic map using imported sprites and tilesets
-- [X] Utilized 3D functions to create a parallax effect in the background of the game
-- [X] Added an attack animation override so the warrior has an attack animation
-- [X] Researched camera movement from Hollow Knight and reset default inputs to match Hollow Knight
+- Smooth 2D platformer movement
+- Hollow Knight-style camera tracking
+- Dash, sword throw, and double jump abilities
+- AI enemies with stun, attack, and charge behaviors
+- Health and damage systems with knockback
+- Animated death and stun sequences
+- Custom maps and parallax backgrounds
+- Particle effects and ambient lighting
+- NPC interactions and in-game shop (planned)
+- Minecraft-style pixel text rendering (planned)
+- Modular animation system with hitboxes
+- Sound effects synced to animations
+- Save/load system (planned)
 
-#### 10/6/2023
-- [X] Added SFX to attack and jump animations
-- [X] Set all sprite masking to DefaultUnlit to create lighting
-- [X] Added lighting throughout the map using point and directional lighting
-- [X] Learned git and github basics and pushed this project into the cloud
-- [X] So far, the game has a twilight feel, so I named the game Twilight (tentative) 
+---
 
-#### 10/7/2023
-- [X] Added attack animation delay
-- [X] Added hitbox for attack animation
+## 🔧 How to Set Up the Project
 
-#### 10/8/2023
-- [X] Added hiting registration for attack animation
-- [X] Added get hit registration for attack animation with a stunned state
-- [X] Made the map more expansive (always improving)
-- [X] Fixed collision box for platforms 
-- [X] Created idle animation for the first enemy, BallChain
-- [X] Improved README to be more organized and include devlog
+### Requirements
+- **Unreal Engine 5**
+- **Git** (to clone the repository)
 
-#### 10/9/2023
+### Download Unreal Engine 5
+You can download and install Unreal Engine 5 from the [Epic Games Launcher](https://www.unrealengine.com/en-US/download). 
 
-- [X] Cloned repository to work remotely
+1. Go to the [Unreal Engine download page](https://www.unrealengine.com/en-US/download).
+2. Click on “Download Now” to get the Epic Games Launcher.
+3. Install the launcher and create an Epic Games account if you don’t have one.
+4. Open the launcher and install Unreal Engine 5 under the “Unreal Engine” tab.
 
-#### 10/10/2023
+---
 
-- [X] Added stun animation for the ball chain mob
-- [X] Added SFX for the BC_stun
-- [X] Added sequence to warrior blueprint to enable multiple hit regis
-- [X] Cleaned up some lighting for BC
+### Cloning the Repository
 
-#### 10/13/2023
+```bash
+git clone https://github.com/your-username/twilight-platformer.git
+cd twilight-platformer
+```
 
-- [X] Added death animation for the warrior
-- [X] Set health and damage system to the warrior
-- [X] Removed collision when dead animation finishes
-- [X] Fixed bug where hits would be detected if warrior turned around mid-sequence
+---
 
-#### 10/13/2023
+### Opening the Project
 
-- [X] Added more death charge attack run and charge transition custom animations for ball-chain sprite
+1. Launch Unreal Engine 5.
+2. Click on "Open Project" and navigate to the `.uproject` file inside the cloned folder.
+3. Open and wait for assets and shaders to compile.
 
-#### 10/17/2023
-- [X] Fixed bug where enemy bodies would move parallax with the ground
-- [X] Programmed enemy AI to follow player at a set speed and acceptable radius
-- [X] New bug: navmesh won't work in a 2D space
+---
 
-#### 10/18/2023 
-- [X] Fixed navmesh
-- [X] Fixed bug where navmesh would not register under tiles
-- [X] New bug: ball chain enemy walks through the ground
+## ✅ To-do List
 
-#### 10/20/2023
-- [X] Broke navmesh again...
-- [X] Fixed bug where ball chain enemy would walk through the ground
+- [ ] Learn Aseprite for pixel animation
+- [ ] Hollow Knight-style camera movement
+- [ ] Implement jump delay
+- [ ] Add heart-based health system
+- [ ] Create in-game Minecraft-style text
+- [ ] Add NPC interaction and shop systems
+- [ ] Abilities: dash, sword throw, double jump
+- [ ] Update ball chain enemy death sprite (no sparks)
 
-#### 10/21/2023
-- [X] Fixed navmesh by lowering agent height in RecastNavMesh-Default item
+---
 
-#### 10/25/2023
-- [X] Implemented knockback
-- [X] New bug: knockback only works in one direction
+## 📓 Devlog
 
-#### 10/26/2023
-- [X] Knockback works appropriately for any direction using forward vectors
+<details>
+<summary><strong>Click to expand full devlog</strong></summary>
 
-#### 10/29/2023
-- [X] Fixed bug where ball chain enemy would still follow player direction when in dead state
-- [X] Improved AI targeting fluidity
-- [X] Constrained actors to y axis
+### 10/4/2023
+- Learned sprite animations from Itch.io
+- Basic movement controls (jump, dash, move)
+- Set default controls and Pawn Controller
 
-#### 11/1/2023
-- [X] Added attack to the AI
-- [X] Multiple bugs with attacking and stun states
-- [X] Attempted to implement charge state
+### 10/5/2023
+- Created map using imported tilesets
+- Parallax background using 3D layering
+- Attack animation added and bound to input
+- Matched camera settings to Hollow Knight
 
-#### 11/18/2023
-- [X] Holding off project for now, need to focus on studying for finals
+### 10/6/2023
+- Added SFX to attack and jump
+- Updated sprite masking and lighting
+- Pushed initial project to GitHub
 
-#### 12/16/2023
-- [ ] AI for enemies is very buggy - attempting to fix it
-- [ ] Will work on dash function soon
+### 10/7 - 10/8/2023
+- Implemented attack hitbox and hit registration
+- Stunned state on hit
+- Expanded map and fixed collision
+- Created enemy idle animation (BallChain)
 
-#### 12/16/2023
-- [ ] Fixed some lighting issues
-- [ ] Failed to implement working dash
+### 10/9 - 10/10/2023
+- Synced repo for remote work
+- Added stun animation and sound
+- Enabled multi-hit registration in warrior Blueprint
 
-#### 12/17/2023
-- [X] Implemented dash and added lateral friction
-- [X] Dash goes through other entities
+### 10/13/2023
+- Added warrior death animation
+- Implemented health and damage systems
+- Removed collision post-death
+- Fixed turn-around hit detection bug
 
-#### 12/18/2023
-- [X] Fixed issue where maps would go missing upon UE5 launch; just had to update plugins
-- [X] Fixed bug where player could still attack, dash, and jump while defeated
-- [X] Fixed bug where player would fall off map if died mid-air
-- [X] Used event tick to make enemies despawn after being dead for five seconds
-- [X] Added animation for dash
-- [X] Charge for ball chain enemy bugged
+### 10/17 - 10/21/2023
+- Fixed parallax bug with enemy corpses
+- AI enemy follows player; navmesh issues fixed
+- Resolved issue with enemy falling through ground
+- Adjusted navmesh agent height
 
-#### 12/19/2023
-- [X] Added sound for dash
-- [X] Optimized dash; goes through pawns cleaner and works even when vector velocity is zero
-- [X] Fixed bug where ball chain enemy would only hit whenever player went into hitbox; set active hitbox collision was not linked to branch
-- [X] Ball chain enemy now has a double hit attack pattern
+### 10/25 - 10/26/2023
+- Added knockback using forward vectors
 
-#### 12/20/2023
-- [X] Added snow particles
-- [X] Ball chain enemy transitions to charge if stunned while charging
-- [X] Fixed bug where dash would be short if player x-velocity was too low
-- [X] Fixed bug where attack would carry over if player turned directions quickly
-- [X] Adjusted hitboxes and capsule settings
+### 10/29 - 11/1/2023
+- AI enemy constrained to Y axis
+- AI attacks implemented
+- Started implementing enemy charge state
 
-#### 12/21/2023
-- [X] Hitting ball chain enemy resets charge timer
-- [X] Hits register stuns even during enemy attack animation
-- [X] Death animation plays even during enemy attack animation
-- [X] Ball chain enemy can not longer turn directions while charging or attacking
-- [X] Player can only jump when on ground
-- [X] Fixed tile set artifact glitches
-- [X] Set aggro range for enemy
-- [X] Fixed navmesh needs to be rebuilt by setting navigation mesh setting runtime to dynamic
+### 12/16 - 12/18/2023
+- Fixed lighting and implemented dash
+- Dash goes through enemies
+- Cleaned up dash animation and SFX
+- Enemies despawn after 5 seconds dead
+- Fixed player input after death
 
-#### 12/22/2023
-- [X] Worked on level design and tilesets
+### 12/19 - 12/21/2023
+- Dash improvements: fixed edge case velocities
+- Added snow particle effects
+- Charge animation logic updated
+- Fixed multiple attack bugs and stun states
+- Jumping locked to grounded state
+- Rebuilt navmesh for dynamic runtime
 
-#### 12/24/2023
-- [X] Nerfed player walking speed
-- [X] Added non-collidable tiles
+### 12/22 - 12/24/2023
+- Level design expansion
+- Added non-collidable decorative tiles
+- Nerfed walk speed
 
-#### 1/7/2024
-- [X] Disabled lumen and changed shadow tiles to improve fps
-- [X] Adjusted unit capsule component height and translated player spawn point up the y axis so the lights would not interfere with the model
+### 1/7/2024
+- Disabled Lumen, adjusted shadow tiles
+- Increased FPS, adjusted spawn translation
 
-#### 3/10/2024
-- [X] Paused log to work on another project
+### 3/10/2024
+- Paused project for new work
 
-#### 5/18/2024
-- [X] Fixed issue where ground would shake when character moved (moved character y axis to 1.0)
-- [X] Moved sprite down so character wouldn't appear floating
-- [X] Changed camera from perspective to orthographic
-- [X] Fixed minor screen tears between tiles
-- [X] Fixed tiles glitching and changing while character moves
-- [ ] Fix light shining through sprite
-- [ ] Fix weird wave tile movement whenever character jumps (probably orthographic camera issue)
+### 5/18/2024
+- Fixed floating character bug
+- Changed camera to orthographic
+- Fixed screen tearing and tile shifting
+- TODO: resolve sprite lighting bleed and wave tile glitch when jumping
 
+</details>
+
+---
+
+## 📁 Project Structure (Partial)
+
+```
+twilight-platformer/
+│
+├── Assets/
+├── Maps/
+├── Blueprints/
+├── Characters/
+├── Animations/
+├── Tilesets/
+├── Sounds/
+├── twilight.uproject
+```
+
+---
+
+## 🎮 About the Developer
+
+Solo dev project by Jason Lee. Built using Unreal Engine 5 with the goal of recreating the tight mechanics and ambiance of games like *Hollow Knight* in a side-scrolling pixel world.
+
+---
+
+## ⭐️ Contributions
+
+This is a solo development project but feel free to fork, star, or raise issues! Improvements, especially for AI behaviors and visual polish, are welcome.
+
+---
+
+## 📜 License
+
+This project is for educational and portfolio purposes. Please contact the developer before reusing assets or major portions of the codebase.

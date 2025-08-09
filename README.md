@@ -3,10 +3,11 @@
 
 Twilight is a handcrafted 2D platformer built using Unreal Engine 5. Taking visual and gameplay inspiration from titles like *Hollow Knight*, this project focuses on delivering satisfying movement, challenging enemies, fluid animation, and an immersive atmosphere. From knockback systems to parallax-scrolling tilesets, Twilight is built with meticulous attention to detail and driven by solo development.
 
-![twilight](twilightdemo1.gif)
+https://github.com/user-attachments/assets/719fa85d-8e01-44ac-b033-80eb210b42a8
 ---
 
 ## 🕹 Game Features (Planned & Implemented)
+
 
 - Smooth 2D platformer movement
 - Hollow Knight-style camera tracking
